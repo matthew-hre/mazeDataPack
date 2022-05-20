@@ -1,0 +1,8 @@
+# make sure to execute as player
+give @p written_book{noDrop:1b,pages:['["",{"text":"To whoever this may concern.\\n\\nMy name is "},{"text":"Sam.","color":"dark_purple"},{"text":" If you\'re reading this book, then you\'ve found my ","color":"reset"},{"text":"homeworld","italic":true},{"text":"... or what\'s left of it.\\n\\nMy people we\'re happy here, for years and years... until we started becoming ","color":"reset"},{"text":"wasteful","bold":true},{"text":".","color":"reset"}]','{"text":"All the trash and garbage we\'ve collected... thrown around... My world has crumbled. It\'s a wasteland.\\n\\nI need to know why. What happened that created such a cruel, harmful land?"}','["",{"text":"You will need to find "},{"text":"four artifacts","color":"blue"},{"text":" of my land, each one more dangerous than the last... I wish you the best of luck.\\n\\nAnd please, no matter what you do, do no","color":"reset"},{"text":"t","obfuscated":true},{"text":" g","color":"reset"},{"text":"oogl","obfuscated":true},{"text":"e t","color":"reset"},{"text":"he bee","obfuscated":true},{"text":" mov","obfuscated":true},{"text":"i","color":"reset"},{"text":"e script it long a","obfuscated":true},{"text":"n","color":"reset"},{"text":"d\\ni don\'t to read it","obfuscated":true}]'],title:"My Homeworld",author:"Sam the Enderman",generation:3,display:{Lore:["A message from Sam.","It may help you on your journey."]}}
+item replace entity @p[tag=!Staff] armor.chest with minecraft:leather_chestplate
+give @p[tag=!Staff] minecraft:stone_sword
+item replace entity @p[tag=!Staff] weapon.offhand with minecraft:shield
+give @p[tag=!Staff] minecraft:apple 12
+effect give @p[tag=!Staff] regeneration 3 10
+effect give @p[tag=!Staff] saturation 3 10
